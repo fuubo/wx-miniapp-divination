@@ -18,7 +18,7 @@
 	<view class="text-title">老师介绍</view>
 	<view class="master-card section-row">
 		<view style="margin-left:3%">
-			<image class="logo" src="../../images/logo.jpg"></image>
+			<image class="logo" src="../../images/avatar-1.jpg"></image>
 		</view>
 		<view class="section-column section-border">
 			<view class="text-master-name">团团珺</view>
@@ -28,7 +28,7 @@
 	</view>
 	<view class="master-card section-row">
 		<view style="margin-left:3%">
-			<image class="logo" src="../../images/logo.jpg"></image>
+			<image class="logo" src="../../images/avatar-2.jpg"></image>
 		</view>
 		<view class="section-column section-border">
 			<view class="text-master-name">毛哥</view>

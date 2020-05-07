@@ -9,11 +9,11 @@
 	<scroll-view class="goods-container" scroll-y="true">
 		<view class="goods" wx:for="{{goods}}" wx:key="id" wx:if="{{selected==item.categoryId}}">
 			<view style="width:70%">
-				<view class="name">{{item.name}} {{item.minutes}} 分钟</view>
-				<view class="name">¥{{item.price}}</view>
+				<view>{{item.name}} <text class="name">{{item.minutes}}</text> 分钟</view>
+				<view>¥{{item.price}}</view>
 			</view>
 			<view style="width:30%">
-				<van-button round data-id='{{item.id}}' bindtap="onOrderBtnClick">预约</van-button>
+				<van-button custom-style="margin-top:20rpx" round size="small" data-id='{{item.id}}' bindtap="onOrderBtnClick">预约</van-button>
 			</view>
 		</view>
 	</scroll-view>

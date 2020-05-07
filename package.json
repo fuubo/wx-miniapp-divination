@@ -1,0 +1,24 @@
+{
+  "name": "wxminiapp-divination",
+  "version": "1.0.0",
+  "description": "占卜预约微信小程序",
+  "main": "app.js",
+  "dependencies": {
+    "@vant/weapp": "^1.2.2",
+    "weui-miniprogram": "^1.0.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rover95/wxapp-swiper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rover95/wxapp-swiper/issues"
+  },
+  "homepage": "https://github.com/rover95/wxapp-swiper#readme"
+}

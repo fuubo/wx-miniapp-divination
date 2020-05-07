@@ -1,0 +1,39 @@
+<!--index.wxml-->
+<Swiper imgUrls="{{imgUrls}}" />
+<view class="section-row">
+	<view style="width:77%">
+		<view class="text-company">JYP心理咨询工作室</view>
+		<view class="text-slogan">工作室slogan</view>
+	</view>
+	<view style="width:23%">
+		<image class="logo" src="../../images/logo.jpg"></image>
+	</view>
+</view>
+<view style="margin-top:50rpx;">
+	<view class="text-title">营业时间</view>
+	<view class="text-subtitle">每周二至周日 13:30 - 21:50（需提前预约）</view>
+</view>
+<view class="line-space"></view>
+<view class="section-column">
+	<view class="text-title">老师介绍</view>
+	<view class="master-card section-row">
+		<view style="margin-left:3%">
+			<image class="logo" src="../../images/logo.jpg"></image>
+		</view>
+		<view class="section-column section-border">
+			<view class="text-master-name">团团珺</view>
+			<view class="text-master-skill">擅长占星、星盘</view>
+			<view class="text-master-subscribe">简介什么的，看看是否需要吧啊啦吧啦吧啦吧到了芭芭拉的吧啦啦啦啦啦啦</view>
+		</view>
+	</view>
+	<view class="master-card section-row">
+		<view style="margin-left:3%">
+			<image class="logo" src="../../images/logo.jpg"></image>
+		</view>
+		<view class="section-column section-border">
+			<view class="text-master-name">毛哥</view>
+			<view class="text-master-skill">擅长占星、星盘、周易</view>
+			<view class="text-master-subscribe">简介什么的，看看是否需要吧啊啦吧啦吧啦吧到了芭芭拉的吧啦啦啦啦啦啦</view>
+		</view>
+	</view>
+</view>

@@ -1,0 +1,7 @@
+<swiper class="swiper-image" indicator-dots="true" autoplay="{{true}}" interval="5000" indicator-color='#8a8a8a' indicator-active-color='#333' current="0">
+  <block wx:for="{{imgUrls}}" wx:index="{{index}}" wx:key="item">
+    <swiper-item >
+      <image mode="scaleToFill" src="{{item}}" class="slide-image {{currentIndex == index ? 'active' : 'common'}}" />
+    </swiper-item>
+  </block>
+</swiper>

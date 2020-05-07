@@ -1,0 +1,20 @@
+<van-notice-bar text="一个月内占卜过同一个问题的不接单哦～" scrollable="false" left-icon="warning-o" backgroundColor="#bbb" color="#fff" mode="closeable" />
+<view class="content-container">
+	<scroll-view class="category-container" scroll-y="true" scroll-with-animation="true">
+		<view class="category {{selected==category.id?'active':''}}" wx:for="{{categories}}" wx:for-item="category" wx:key="id" data-id="{{category.id}}" bindtap="onCategoryClick">
+			<view class="name {{selected==category.id?'active':''}}">{{category.name}}</view>
+		</view>
+	</scroll-view>
+
+	<scroll-view class="goods-container" scroll-y="true">
+		<view class="goods" wx:for="{{goods}}" wx:key="id" wx:if="{{selected==item.categoryId}}">
+			<view style="width:70%">
+				<view class="name">{{item.name}} {{item.minutes}} 分钟</view>
+				<view class="name">¥{{item.price}}</view>
+			</view>
+			<view style="width:30%">
+				<van-button round data-id='{{item.id}}' bindtap="onOrderBtnClick">预约</van-button>
+			</view>
+		</view>
+	</scroll-view>
+</view>

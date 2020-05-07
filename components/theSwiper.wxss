@@ -1,0 +1,11 @@
+.slide-image {
+  border-radius: 30rpx;
+  z-index: 1;
+  height:300rpx;
+  width: 92%;
+  margin-left: 4%;
+  margin-top: 30rpx;
+}
+.swiper-image {
+  height:330rpx;
+}
